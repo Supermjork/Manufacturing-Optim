@@ -84,7 +84,7 @@ app.layout = html.Div([
             id='product-filter',
             options=[{'label': x, 'value': x} for x in df['Product type'].unique()],
             value=df['Product type'].unique()[0],
-            style={'backgroundColor': dark_theme['paper'], 'color': 'black'}
+            style={'backgroundColor': 'white', 'color': 'black'}
         ),
     ], style={'width': '30%', 'margin': '20px auto'}),
     
